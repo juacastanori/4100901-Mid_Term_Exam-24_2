@@ -12,6 +12,8 @@ typedef enum {
     PERM_UNLOCK
 } DoorState_t;
 
+
+
 DoorState_t current_state = LOCKED;
 uint32_t unlock_timer = 0;
 
