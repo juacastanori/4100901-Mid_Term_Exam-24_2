@@ -57,6 +57,7 @@ typedef enum {
 void usart2_init(void);
 void usart2_send_string(const char *str);
 void usart2_send_char(const char ch);
+uint8_t  usart2_receive_char();
 void usart2_receive_string(uint8_t *buffer, uint8_t len);
 void usart2_receive_it(uint8_t *buffer, uint8_t len);
 // Función para obtener el último comando recibido (no bloqueante)
